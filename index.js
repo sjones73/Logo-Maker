@@ -35,7 +35,20 @@ inquirer.prompt([
 .then(answers => {
     // console.log(answers)
 
-    const shapeObj = new shape.Circle(answers.shapeColor)
+    let shapeObj;
+
+    if(answers.shape == "Circle") {
+       shapeObj = new shape.Circle(answers.shapeColor)
+    }
+
+    if(answers.shape == "Square") {
+       shapeObj = new shape.Square(answers.shapeColor)
+    }
+
+    if(answers.shape == "Triangle") {
+       shapeObj = new shape.Triangle(answers.shapeColor)
+    }
+
     const shapeCode = shapeObj.render();
     
 
