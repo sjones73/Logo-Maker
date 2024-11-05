@@ -44,6 +44,7 @@ View the generated logo.svg file, which will display a 300x200 pixel logo with y
 
 ### Video Walkthrough
 To see a demonstration of the application’s functionality, watch the video walkthrough linked below. This video shows the application running, meeting all acceptance criteria, and generating a sample SVG logo.
+Link to tutorial: https://drive.google.com/file/d/1ppVNZhhpo58U1lSFuuqEA_iVUTTQH3qK/view?usp=sharing
 
 ### Screenshots
 ![Logo Screenshot](./screenshots/screenshot2.png)
